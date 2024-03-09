@@ -13,5 +13,7 @@ fun main() {
     takeoffHour = 10
     takeoffMinute = 55
 
-    println("$takeoffHour:$takeoffMinute")
+    print(takeoffHour)
+    print(":")
+    print(takeoffMinute)
 }
