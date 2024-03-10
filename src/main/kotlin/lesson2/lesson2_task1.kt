@@ -2,7 +2,8 @@ package org.example.lesson2
 
 fun main() {
 
-	val sum = 3 + 4 + 3 + 5
-	val average = sum.toFloat() / 4
-	println("%.2f".format(average))
+	val amountOfPoints = 3 + 4 + 3 + 5
+	val studentsCount = 4
+	val averageScore = amountOfPoints.toFloat() / studentsCount
+	println("%.2f".format(averageScore))
 }
